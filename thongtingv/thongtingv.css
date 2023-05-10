@@ -1,33 +1,49 @@
+
 .teacher-info {
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 1px;
     margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 50px;
 }
-  
+
 .teacher-info-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 490px;
+    
 }
   
-.edit-button, .delete-button {
+.edit-button {
     background-color: #4CAF50;
     color: #fff;
     border: none;
+    border-radius: 10px;
     padding: 10px 15px;
-    margin-left: 10px;
+    margin-left: 500px;
     cursor: pointer;
 }
 
-.teacher-infor-header button[class="edit-button"]:hover,
+.delete-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+/* .teacher-infor-header button[class="edit-button"]:hover,
 .teacher-infor-header button[class="edit-button"]:focus {
   background-color: #7e0202;
-}
+} */
   
 .teacher-info-details {
     margin-top: 20px;
+    margin-left: 500px;
+    align-items: flex-start;
 }
   
 .teacher-info-details p {
@@ -65,13 +81,14 @@
 }
     
 .back-button {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #ddd;
+    /* color: #fff; */
     border: none;
+    border-radius: 10px;
     padding: 10px 15px;
-    margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
+    margin-left: 650px;
     cursor: pointer;
 }  
 
