@@ -1,0 +1,96 @@
+.teacher-info {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+  
+.teacher-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.edit-button, .delete-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.teacher-infor-header button[class="edit-button"]:hover,
+.teacher-infor-header button[class="edit-button"]:focus {
+  background-color: #7e0202;
+}
+  
+.teacher-info-details {
+    margin-top: 20px;
+}
+  
+.teacher-info-details p {
+    margin: 10px 0;
+}
+  
+.class-list {
+    margin-top: 20px;
+}
+    
+.class-list h2 {
+    margin-bottom: 10px;
+}
+    
+.class-list table {
+    border-collapse: collapse;
+    width: 100%;
+}
+    
+.class-list th, .class-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+    
+.class-list th {
+    background-color: #f2f2f2;
+}
+    
+.class-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+    
+.class-list tr:hover {
+    background-color: #ddd;
+}
+    
+.back-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}  
+
+
+
+header, footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 1px;
+}
+
+h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }

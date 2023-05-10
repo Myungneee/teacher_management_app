@@ -1,0 +1,122 @@
+.teacher-form-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.teacher-form-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-row label {
+  flex-basis: 150px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.form-actions button {
+  padding: 10px 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0080ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-actions button[type="reset"] {
+  background-color: #009900;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #009900;
+}
+
+/* Hover và focus style cho nút Save */
+.form-actions button[type="submit"]:hover,
+.form-actions button[type="submit"]:focus {
+  background-color: #00cc00;
+}
+
+/* Hover và focus style cho nút Cancel */
+.form-actions button[type="reset"]:hover,
+.form-actions button[type="reset"]:focus {
+  background-color: #ff5050;
+}
+
+/* Style cho các trường bắt buộc nhập */
+input:required {
+  border-bottom: 2px solid #0080ff;
+}
+
+/* Style cho trường số điện thoại */
+input[type="tel"] {
+  width: 100%;
+}
+
+/* Style cho trường năm sinh */
+input[type="date"] {
+  width: 100%;
+}
+
+/* Style cho trường tiền dạy 1 giờ */
+input[type="number"] {
+  width: 100%;
+}
+
+/* Style cho phần border của input khi được focus */
+input:focus {
+  border-bottom: 2px solid #0080ff;
+}
+
+/* Style cho phần border của input khi không focus */
+input:not(:focus) {
+  border-bottom: 2px solid #ccc;
+}
+
+header, footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}

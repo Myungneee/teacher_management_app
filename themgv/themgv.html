@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thêm mới giáo viên</title>
+    <link rel="stylesheet" href="themgv.css"/>
+</head>
+<body>
+    <header>
+        <h1>Thêm mới giáo viên</h1>
+    </header>
+    <main>
+        <div class="teacher-form-container">
+            <form>
+                <h2>Thông tin</h2>
+                <div class="form-row">
+                    <label for="teacher-code">Mã giáo viên:</label>
+                    <input type="text" id="teacher-code" name="teacher-code" required>
+                </div>
+                <div class="form-row">
+                    <label for="teacher-degree">Bằng cấp:</label>
+                    <input type="text" id="teacher-degree" name="teacher-degree" required>
+                </div>
+                <div class="form-row">
+                    <label for="teacher-fullname">Họ và tên:</label>
+                    <input type="text" id="teacher-fullname" name="teacher-fullname" required>
+                </div>
+                <div class="form-row">
+                    <label for="teacher-birthday">Năm sinh:</label>
+                    <input type="date" id="teacher-birthday" name="teacher-birthday" required>
+                </div>
+                <div class="form-row">
+                    <label for="teacher-pay">Tiền dạy 1 giờ:</label>
+                    <input type="number" id="teacher-pay" name="teacher-pay" required>
+                </div>
+                <div class="form-row">
+                    <label for="teacher-coefficient">Hệ số:</label>
+                    <input type="floatnumber" id="teacher-coefficient" name="teacher-coefficient" required>
+                </div>
+                <div class="form-row">
+                    <label for="teacher-phone">Số điện thoại:</label>
+                    <input type="tel" id="teacher-phone" name="teacher-phone" required>
+                </div>
+                <div class="form-row">
+                    <label for="teacher-address">Địa chỉ:</label>
+                    <input type="text" id="teacher-address" name="teacher-address" required>
+                </div>
+                <div class="form-actions">
+                    <button type="reset">Cancel</button>
+                    <button type="submit">Save</button>
+                </div>
+            </form>
+        </div> 
+    </main>
+    <footer>
+        <p>© 2023 - Thêm mới giáo viên</p>
+    </footer>     
+</body>
+</html>
