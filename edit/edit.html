@@ -6,7 +6,7 @@
         <title>Thông tin giáo viên</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="thongtingv.css">
+        <link rel="stylesheet" href="edit.css">
     </head>
     <body>
         <header>
@@ -16,10 +16,6 @@
             <div class="teacher-info">
                 <div class="info-header">
                     <h2>Giáo viên</h2>
-                    <div class="actions">
-                        <button>Edit</button>
-                        <button>Delete</button>
-                    </div>
                 </div>
                 <div class="teacher-details">
                     <div class="teacher-row">
@@ -28,7 +24,7 @@
                     </div>
                     <div class="teacher-row">
                         <span>Bằng cấp:</span>
-                        <span>Đại học</span>
+                        <input type="text" id="teacher-degree" value="Đại học">
                     </div>
                     <div class="teacher-row">
                         <span>Họ và tên:</span>
@@ -44,15 +40,15 @@
                     </div>
                     <div class="teacher-row">
                         <span>Tiền dạy 1 giờ:</span>
-                        <span>100,000 VNĐ</span>
+                        <input type="text" id="teacher-hourly-wage" value="100,000VNĐ">
                     </div>
                     <div class="teacher-row">
                         <span>Số điện thoại:</span>
-                        <span>0349729378</span>
+                        <input type="text" id="teacher-phone" value="0349729378">
                     </div>
                     <div class="teacher-row">
                         <span>Địa chỉ:</span>
-                        <span>Hà Nội</span>
+                        <input type="text" id="teacher-address" value="Hà Nội">
                     </div>
                 </div>
             </div>
@@ -100,7 +96,10 @@
                         </tr>
                     </tbody>
                 </table>
-                <button>Back</button>
+                <div class="actions">
+                    <button>Cancel</button>
+                    <button>Save</button>
+                </div>
             </div>                                                          
         </main>
         <footer>
