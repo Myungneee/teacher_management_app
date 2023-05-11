@@ -23,6 +23,7 @@
     padding: 5px 10px;
     cursor: pointer;
     margin-left: 10px;
+    display: inline-block;
 }
 
 .actions button:hover {
@@ -72,7 +73,6 @@ tr:hover {
 }
 
 .class-info button {
-    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -80,11 +80,26 @@ tr:hover {
     cursor: pointer;
     margin-top: 30px;
     margin-bottom: 30px;
+    display: inline-block;
 }
 
-.class-info button:hover {
+.actions {
+    text-align: center;
+}
+
+.class-info button[type="save"] {
+    background-color: #4CAF50;
+}
+.class-info button[type="save"]:hover {
     background-color: #3e8e41;
-}  
+} 
+
+.class-info button[type="cancel"] {
+    background-color: #ff5050;
+}
+.class-info button[type="cancel"]:hover {
+    background-color: #f81818;
+} 
 
 header, footer {
     background-color: #333333;

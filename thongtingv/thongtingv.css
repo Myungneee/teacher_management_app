@@ -16,7 +16,6 @@
 }
 
 .actions button {
-    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -25,7 +24,26 @@
     margin-left: 10px;
 }
 
-.actions button:hover {
+.back {
+    text-align: center;
+}
+
+.actions button[type="delete"] {
+    background-color: #ff5050;
+} 
+.actions button[type="delete"]:hover {
+    background-color: #f81818;
+}
+
+.class-info button[type="back"]:hover,
+.action button[type="back"]:focus {
+    background-color: rgb(31, 236, 198);
+}
+
+.actions button[type="edit"] {
+    background-color: #4CAF50;
+}
+.actions button[type="edit"]:hover {
     background-color: #3e8e41;
 }
 
@@ -72,19 +90,16 @@ tr:hover {
 }
 
 .class-info button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ddd;
+    color: rgb(7, 7, 7);
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
     margin-top: 30px;
     margin-bottom: 30px;
+    display: inline-block;
 }
-
-.class-info button:hover {
-    background-color: #3e8e41;
-}  
 
 header, footer {
     background-color: #333333;
